@@ -1,0 +1,20 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-6">
+      <h3 class="text-center">Contact list</h3>
+
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let c of contacts" >
+          <p class="lead">{{ c.name }}</p>
+          <p>{{ c.email }}</p>
+          <p>{{ c.phone }}</p>
+          <p>{{ c.city }}</p>
+        </li>
+      </ul>
+
+    </div>
+    <div class="col-sm-6"></div>
+  </div>
+
+</div>
